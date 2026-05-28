@@ -1,59 +1,26 @@
-# PokeAPIViewer
+# PokedexTailWind
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.8.
+A modern, responsive Pokedex application built with Angular, showcasing clean architecture and efficient data fetching.
 
-## Development server
+## 🚀 Tech Stack
 
-To start a local development server, run:
+- **Frontend Framework:** Angular
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Data Fetching:** Axios
+- **API:** [PokéAPI](https://pokeapi.co/)
 
-```bash
-ng serve
-```
+## 📋 Key Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Dynamic Data Loading:** Uses Axios for efficient asynchronous communication with the PokéAPI.
+- **Modern UI:** Built with Tailwind CSS to ensure a responsive and intuitive user experience.
+- **Type-Safe Development:** Fully written in TypeScript to ensure code reliability and maintainability.
+- **Clean Architecture:** Well-structured Angular components for easy scaling and readability.
 
-## Code scaffolding
+## 🛠 How to run
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+1. **Clone the repository:**
 
 ```bash
-ng build
+   git clone [https://github.com/Ole-Bak/PokedexTailWind.git](https://github.com/Ole-Bak/PokedexTailWind.git)
 ```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
